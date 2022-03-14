@@ -65,4 +65,30 @@ SpringSecurity Login Process <br>
 5. Create Principal
 6. Internally, Authentication got UserDetails
 7. Internally, Session got Authentication
+<br><br>
+[TO login as Manager or Admin]<br>
+8.Create Manager and Admin Account <br>
+Update roles for Manager and Admin
+![img_13.png](img_13.png)
+
+Manager login<br>
+![img_14.png](img_14.png)
+Can access /user <br>
+![img_15.png](img_15.png)
+Can Access /manager <br>
+![img_16.png](img_16.png)
+Can not access /admin <br>
+![img_17.png](img_17.png)
+
+[Once you want to secure only one method ]<br>
+
+![img_18.png](img_18.png)
+
+[How to use the above annotation]
+![img_19.png](img_19.png)
+
+
+
+
+
 
