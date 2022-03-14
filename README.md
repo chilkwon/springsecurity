@@ -34,3 +34,24 @@ To do so, crete SecurityConfig class inside cofig package.
 ![img_7.png](img_7.png)
 
 ![img_8.png](img_8.png)
+
+Create Login Page 
+![img_9.png](img_9.png)
+
+For login, need to create user model.
+![img_10.png](img_10.png)
+After running, User table is being created in security DB.
+
+![img_11.png](img_11.png)
+
+Modified Three files and create Html Files for User register.
+![img_12.png](img_12.png)
+
+To store encrypted password, create the below method inside securityConfig
+@Bean
+public BCryptPasswordEncoder encoderPwd(){
+return new BCryptPasswordEncoder();
+}
+
+To autowire BcrpytPasswordEncoder in IndexController to encrypt user password,
+need to add anotation @Bean for IOC.
