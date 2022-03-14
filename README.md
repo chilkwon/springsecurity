@@ -24,3 +24,13 @@ Recognized the created encoded password
 
 open browser and will see the login page.
 ![img_3.png](img_3.png)
+
+[Create more functons inside IndexController.java]
+![img_6.png](img_6.png)
+
+Once you check all url request, you will get all response.
+That is not the right approach. Need to add url security.
+To do so, crete SecurityConfig class inside cofig package.
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
