@@ -55,3 +55,14 @@ return new BCryptPasswordEncoder();
 
 To autowire BcrpytPasswordEncoder in IndexController to encrypt user password,
 need to add anotation @Bean for IOC.
+
+[Login]<br>
+SpringSecurity Login Process <br>
+1. Log in on HTML
+2. Grab loginPrcessingURL inside SecurityConfig
+3. Check information inside of principalDetailService
+4. Create UserDetails 
+5. Create Principal
+6. Internally, Authentication got UserDetails
+7. Internally, Session got Authentication
+

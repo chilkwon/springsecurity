@@ -38,7 +38,7 @@ public class IndexController {
     public @ResponseBody String manager(){
         return "manager";
     }
-    @GetMapping("/loginForm") // Sprongboot is handling buil-in login. it could be conflict.
+    @GetMapping("/loginForm") // Sprongboot is handling built-in login. it could be conflict.
     public String login(){
         return "loginForm";
     }
